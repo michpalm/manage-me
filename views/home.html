@@ -1,0 +1,10 @@
+<div>
+    {{ range .Sessions }}
+    <div>
+        <p>ID: {{ .ID }} @  {{ .Timestamp }}</p>
+    </div>
+    {{ end }}
+</div>
+<div>
+    <p><a href="/">Back home</a></p>
+</div>
